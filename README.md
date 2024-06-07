@@ -1,2 +1,8 @@
-# SaveRestoreWindowsState
-Simple AppleScripts that save current application windows arrangement, and restore them to the moment when the profile is created.
+# Save a current application windows arrangement:
+In a terminal, 
+osascript "Save Current Window State.scpt"
+and then enter a profile name
+
+# Restore:
+osascript "Restore Window State.scpt"
+Choose a profile
